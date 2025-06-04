@@ -9,7 +9,7 @@
         name: httpd
         state: present
 
-    - name: Write the apache config file
+    - name: Write the apache config file s
       ansible.builtin.template:
         src: /srv/httpd.j2
         dest: /etc/httpd.conf
