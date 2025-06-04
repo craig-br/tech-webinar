@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acmescm.techwebinar
+  description: A very descriptive description
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: acme-scm/tech-webinar
+  links:
+    - url: https://devspaces.apps.rm3.7wse.p1.openshiftapps.com/#https://github.com/acme-scm/tech-webinar
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/red-hat-developer-hub
+  lifecycle: production
+  owner: user:default/craig-br
